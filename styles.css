@@ -1,88 +1,62 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #F5F5DC;
-    color: #333;
-    margin: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #333;
 }
 
 header {
-    background-color: #228B22;
-    color: white;
-    padding: 1.5rem;
-    text-align: center;
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
-header h1 {
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #FFD700;
-}
-
-nav ul li {
-    margin: 0 1.2rem;
+nav {
+  background: #111827;
+  padding: 10px;
+  text-align: center;
 }
 
 nav a {
-    color: #228B22;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0.8rem 0;
-    display: block;
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  color: #38bdf8;
 }
 
-.hero {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
-    background-size: cover;
-    color: white;
-    padding: 6rem 1rem;
-    text-align: center;
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
+h1, h2 {
+  color: #1e3a8a;
 }
 
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
+button {
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-.card {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    padding: 1.5rem;
-    text-align: center;
-}
-
-.btn {
-    padding: 0.8rem 1.5rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
+button:hover {
+  background: #2563eb;
 }
 
 footer {
-    background-color: #228B22;
-    color: white;
-    text-align: center;
-    padding: 1.5rem;
-    margin-top: 3rem;
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
+
